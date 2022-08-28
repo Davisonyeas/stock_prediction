@@ -2,6 +2,8 @@
 import streamlit as st
 from datetime import date
 
+import tkinter
+import _tkinter
 import turtle
 import tk
 import tkinter as TK
