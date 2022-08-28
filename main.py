@@ -13,25 +13,28 @@ from prophet import Prophet
 from prophet.plot import plot_plotly
 from plotly import graph_objs as go
 
-# im = Image.open("stock.png")
-# st.set_page_config(
-#     page_title="Stock Price Prediction by Davis",
-#     page_icon=im,
+im = Image.open("stock.png")
+st.set_page_config(
+    page_title="Stock Price Prediction by Davis",
+    page_icon=im,
     
-# )
+)
 
-# hide_menu = """
-# <style>
-#     footer {
-#         visibility: hidden;
-#     }
+hide_menu = """
+<style>
+    #MainMenu{
+        visibility: hidden;    
+    }
+    footer {
+        visibility: hidden;
+    }
 
-# </style>
-# """
+</style>
+"""
 
-# st.markdown(hide_menu, unsafe_allow_html=True)
+st.markdown(hide_menu, unsafe_allow_html=True)
 
-# st.markdown(hide_menu, unsafe_allow_html=True)
+st.markdown(hide_menu, unsafe_allow_html=True)
 
 START = "2015-01-01"
 
@@ -154,6 +157,6 @@ fig2 = m.plot_components(forecast)
 
 st.write(fig2)
 
-st.write("Click here to view more of my projects ([)Davis projects])(https://www.davisonye.github.io)")
+st.write("Click here to view more of my projects ([Davis Projects)](https://www.davisonye.github.io)")
 
 st.write("Click here to view my portfolio website ([Davis Portfolio)](https://www.davisonye.github.io)")
