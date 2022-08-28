@@ -13,23 +13,23 @@ from prophet import Prophet
 from prophet.plot import plot_plotly
 from plotly import graph_objs as go
 
-im = Image.open("stock.png")
-st.set_page_config(
-    page_title="Stock Price Prediction by Davis",
-    page_icon=im,
+# im = Image.open("stock.png")
+# st.set_page_config(
+#     page_title="Stock Price Prediction by Davis",
+#     page_icon=im,
     
-)
+# )
 
-hide_menu = """
-<style>
-    footer {
-        visibility: hidden;
-    }
+# hide_menu = """
+# <style>
+#     footer {
+#         visibility: hidden;
+#     }
 
-</style>
-"""
+# </style>
+# """
 
-st.markdown(hide_menu, unsafe_allow_html=True)
+# st.markdown(hide_menu, unsafe_allow_html=True)
 
 # st.markdown(hide_menu, unsafe_allow_html=True)
 
