@@ -2,6 +2,8 @@ from turtle import width
 import streamlit as st
 from datetime import date
 
+import tkinter as TK
+
 from PIL import Image
 import pandas as pd
 import yfinance as yf
