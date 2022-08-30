@@ -53,7 +53,7 @@ st.write("While this joke has been doing rounds for several decades now and is s
 
 st.subheader('Description of Project')
 
-st.write('A stock market (aka equity market or share market) is the aggregation of buyers andd sellers of stocks, which represent ownership claims on businesses')
+st.write('A stock market (aka equity market or share market) is the aggregation of buyers and sellers of stocks, which represent ownership claims on businesses')
 
 st.write('In simple words, stock markets are places where buyers and sellers meet to exchange equity shares of public corporations.')
 
@@ -61,7 +61,7 @@ st.markdown("![Alt Text](https://i.gifer.com/7vpz.gif)")
 
 st.subheader('Aim of Project')
 
-st.write('The aim of this project is predict or determine the future movement of the stock value of a financial exchange. The accurate prediction of share price movement will lead to more profit investors can make.')
+st.write('The aim of this project is to predict or determine the future movement of the stock value of a financial exchange. The accurate prediction of share price movement will lead to more profit investors can make.')
 
 st.write('Full disclosure: I am not a share market king, neither am I a top trader. I am a programmer who knows how to derive insights from historical data. For the purpose of this project, I made research about stock market and I combined various tools to bring this project to life. I ran a predictive analytics of the stock market of some of the most researched companies.')
 
@@ -162,3 +162,5 @@ st.write(fig2)
 st.write("Click here to view more of my projects ([Davis Projects)](https://www.davisonye.github.io)")
 
 st.write("Click here to view my portfolio website ([Davis Portfolio)](https://www.davisonye.github.io)")
+
+st.write("Click here to view my digital CV([Davis CV)](https://www.davisonye.github.io)")
