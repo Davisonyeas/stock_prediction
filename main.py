@@ -159,8 +159,8 @@ fig2 = m.plot_components(forecast)
 
 st.write(fig2)
 
-st.write("Click here to view more of my projects ([Davis Projects)](https://www.davisonye.github.io)")
+st.write("Click here to view more of my projects ([Davis Projects)](https://davisonyeas.github.io/portfolio/)")
 
-st.write("Click here to view my portfolio website ([Davis Portfolio)](https://www.davisonye.github.io)")
+st.write("Click here to view my portfolio website ([Davis Portfolio)](https://davisonyeas.github.io/portfolio/)")
 
-st.write("Click here to view my digital CV([Davis CV)](https://www.davisonye.github.io)")
+st.write("Click here to view my digital CV([Davis CV)](https://bit.ly/digitalcv_dav)")
